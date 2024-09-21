@@ -96,10 +96,3 @@ elif "fact" or "facts" in text2:
 elif "date" or "time" in text2:
     speak("Today is " + today_date.strftime("%d") + " of " + today_date.strftime("%B") + ", And its currently " + (today_date.strftime("%I")) + (today_date.strftime("%M")) + today_date.strftime("%p"))
 
-# elif "joke" or "jokes" in text2:
-#     speak("Sure sir, get ready for chuckles")
-#     arr = joke()
-#     print(arr[0])
-#     speak(arr[0])
-#     print(arr[1])
-#     speak(arr[1])
